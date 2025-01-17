@@ -2,6 +2,7 @@
 
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
+publishDir = "public"
 
 title = "Trey Pezzetti Site"
 
