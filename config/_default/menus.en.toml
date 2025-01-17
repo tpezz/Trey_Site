@@ -10,32 +10,18 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+
+
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Home"
+  pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+  name = "Links"
+  pageRef = "/Links"
+  weight = 10
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
-
-[[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
